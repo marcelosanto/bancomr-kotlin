@@ -25,5 +25,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+
+        binding.poupanca.setOnClickListener {
+            val intent = Intent(this, Poupanca::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }

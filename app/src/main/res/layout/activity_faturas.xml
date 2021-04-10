@@ -16,12 +16,12 @@
         android:id="@+id/textView7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="100dp"
         android:layout_marginBottom="20dp"
         android:gravity="center"
         android:text="Resumo das Faturas"
         android:textColor="@color/black"
-        android:textSize="24sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="174dp"
         tools:layout_editor_absoluteY="93dp" />
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:text="Data de Vencimento: 05/03/2021"
-        android:textSize="18sp"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
     <TextView
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:text="Saldo Parcial: 500,00"
-        android:textSize="18sp"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
     <Button
@@ -51,7 +51,9 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="30dp"
-        android:text="Pagar a Fatura" />
+        android:padding="15dp"
+        android:text="Pagar a Fatura"
+        android:textAllCaps="false" />
 
 
 </LinearLayout>
