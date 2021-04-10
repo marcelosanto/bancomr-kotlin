@@ -30,6 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30sp"
+        android:layout_marginTop="20sp"
         android:text="Para:"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -39,6 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30sp"
+        android:layout_marginTop="20sp"
         android:text="Valor:"
         android:textSize="24sp"
         android:textStyle="bold" />
