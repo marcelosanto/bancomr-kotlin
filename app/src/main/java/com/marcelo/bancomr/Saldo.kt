@@ -20,7 +20,7 @@ class Saldo : AppCompatActivity() {
         val toolbar = binding.toolbarSaldo
         toolbar.title = "Saldo"
         toolbar.setTitleTextColor(getColor(R.color.white))
-        toolbar.setTitleMargin(400,0,400,0)
+        toolbar.setTitleMargin(300,0,300,0)
         toolbar.setBackgroundColor(getColor(R.color.light_blue))
         toolbar.setNavigationIcon(getDrawable(R.drawable.ic_voltar))
         toolbar.setNavigationOnClickListener {
