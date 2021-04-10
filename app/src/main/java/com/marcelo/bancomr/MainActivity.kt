@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         binding.saldo.setOnClickListener {
             val intent = Intent(this, Saldo::class.java)
             startActivity(intent)
+            finish()
         }
     }
 }
